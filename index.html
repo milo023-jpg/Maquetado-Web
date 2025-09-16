@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATTSAS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/inicio.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/servicios/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+        <nav>
+          <div class="logo">
+            <img class="logo-img" src="img/LOGO_VARIACIONES-06.png" alt="">
+          </div>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+          <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <div class="menu-overlay"></div>
+          <ul class="nav-links">
+            <li><a class="li active" href="index.html">Inicio</a></li>
+            <li class="dropdown">
+              <a href="#servicios">Servicios</a>
+              <ul class="dropdown-menu">
+                <li><a href="auditoria.html">Auditoría Interna</a></li>
+                <li><a href="asesoria.html">Asesoría y Consultoría</a></li>
+                <li><a href="capacitacion.html">Capacitación y Entrenamiento</a></li>
+                <li><a href="desarrollo.html">Desarrollo y Certificación de Habilidades</a></li>
+              </ul>
+            </li>
+            <li><a href="quienes_somos.html">Nosotros</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1>Seguridad y salud laboral a la medida de tu empresa</h1>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+      <h2>SERVICIOS QUE OFRECEMOS</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <a
+            href="capacitacion.html"
+            style="text-decoration: none; color: white"
+          >
+            <img src="img/services1.png" alt="Capacitación y Entrenamiento" />
+            <h3>CAPACITACIÓN Y<br />ENTRENAMIENTO</h3>
+          </a>
+        </div>
+
+        <div class="service-card">
+          <a
+            href="auditoria.html"
+            style="text-decoration: none; color: white"
+          >
+            <img src="img/servicesAuditoria.png" alt="Auditoría Interna" />
+            <h3>AUDITORÍA INTERNA</h3>
+          </a>
+        </div>
+
+        <div class="service-card">
+          <a
+            href="asesoria.html"
+            style="text-decoration: none; color: white"
+          >
+            <img src="img/servicesAsesoria.png" alt="Asesoría y Consultoría" />
+            <h3>ASESORÍA Y<br />CONSULTORÍA</h3>
+          </a>
+        </div>
+
+        <div class="service-card">
+          <a
+            href="desarrollo.html"
+            style="text-decoration: none; color: white"
+          >
+            <img
+              src="img/servicesHabilidades.png"
+              alt="Desarrollo y Certificación de Habilidades"
+            />
+            <h3>DESARROLLO Y<br />CERTIFICACIÓN DE<br />HABILIDADES</h3>
+          </a>
+        </div>
+
+        <!-- <div class="service-card">
+          <h3>CAPACITACIÓN Y<br />ENTRENAMIENTO</h3>
+        </div>
+        <div class="service-card">
+          <h3>AUDITORÍA INTERNA</h3>
+        </div>
+        <div class="service-card">
+          <h3>ASESORÍA Y<br />CONSULTORÍA</h3>
+        </div>
+        <div class="service-card">
+          <h3>DESARROLLO Y<br />CERTIFICACIÓN DE<br />HABILIDADES</h3>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Success Cases Section -->
+    <section class="success-cases">
+      <h2>Casos de éxito</h2>
+      <div class="cases-container">
+        <button class="nav-arrow left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="cases-grid">
+          <div class="case-card">
+            <img src="img/logoDiscon.png" alt="Logo Empresa 1" />
+          </div>
+          <div class="case-card">
+            <img src="img/logoEmpas.png" alt="Logo Empresa 2" />
+          </div>
+          <div class="case-card">
+            <img src="img/logoAlcaldiaBarranca.png" alt="Logo Empresa 3" />
+          </div>
+          <div class="case-card">
+            <img src="img/logoTrandecol.png" alt="Logo Empresa 4" />
+          </div>
+        </div>
+        <button class="nav-arrow right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Sección de Certificaciones -->
+    <section class="certificaciones">
+      <div class="certificaciones-texto">
+        <h2>Certificaciones de calidad</h2>
+      </div>
+      <div class="certificaciones-grid">
+        <div class="cert-card">
+          <img src="img/icontecISO14001.jpg" alt="ISO 14001" />
+          <p>SC-CER352481</p>
+          <a href="#">Ver certificado</a>
+        </div>
+        <div class="cert-card">
+          <img src="img/icontecISO9001.jpg" alt="ISO 9001" />
+          <p>SA-CER352482</p>
+          <a href="#">Ver certificado</a>
+        </div>
+        <div class="cert-card">
+          <img src="img/icontecISO45001.jpg" alt="ISO 45001" />
+          <p>OS-CER352484</p>
+          <a href="#">Ver certificado</a>
+        </div>
+        <div class="cert-card">
+          <img src="img/icontecISO45001.jpg" alt="ISO 45001" />
+          <p>NK-1884-1</p>
+          <a href="#">Ver certificado</a>
+        </div>
+        <div class="cert-card">
+          <img src="img/IQNET.jpg" alt="IQNET" />
+          <p>IQNET</p>
+          <a href="#">Ver certificado</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Icons -->
+    <div class="social-media">
+      <a
+        href="https://web.facebook.com/profile.php?id=100066742584222"
+        class="social-icon facebook"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a
+        href="https://www.instagram.com/atssas_sas"
+        class="social-icon instagram"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send/?phone=%2B573176384710&text&type=phone_number&app_absent=0"
+        class="social-icon whatsapp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <p><i class="fas fa-map-marker-alt"></i> Calle 55a No. 27 - 22</p>
+          <p><i class="fas fa-map-marked-alt"></i> Barrio Bolarquí</p>
+          <p><i class="fas fa-city"></i> Bucaramanga</p>
+          <p><i class="fas fa-phone-alt"></i> (+57) 317 6384710</p>
+          <p>
+            <i class="fas fa-envelope"></i> atsseguridadindustrial@gmail.com
+          </p>
+        </div>
+
+        <div class="footer-logo">
+          <img
+            class="logo-img-footer"
+            src="img/LOGO_VARIACIONES-06.png"
+            alt=""
+          />
+        </div>
+        <div class="footer-social">
+          <a
+            href="https://web.facebook.com/profile.php?id=100066742584222"
+            class="social-icon facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/atssas_sas"
+            class="social-icon instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
