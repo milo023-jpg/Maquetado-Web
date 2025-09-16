@@ -1,32 +1,119 @@
-body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f9fff9; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9fff9;
+}
 
 /* Hero */
-.hero { height: 70vh; background: url("https://images.unsplash.com/photo-1508385082359-f38ae991e8f2") center/cover no-repeat; display:flex;align-items:center;justify-content:center;position:relative;}
-.hero::after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background: rgba(52, 61, 103, 0.6);}
-.overlay{position:relative;color:white;text-align:center;z-index:1;}
-.overlay h1{font-size:3rem;margin-bottom:1rem;}
-.btn-volver{padding:.7rem 1.5rem;background:#eb8136;color:white;border-radius:8px;text-decoration:none;}
-.btn-volver:hover{background:#27ae60;}
+.hero {
+  height: 70vh;
+  background: url("https://images.unsplash.com/photo-1508385082359-f38ae991e8f2")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(52, 61, 103, 0.6);
+}
+.overlay {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.btn-volver {
+  padding: 0.7rem 1.5rem;
+  background: #eb8136;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-volver:hover {
+  background: #d96d25;
+}
 
 /* Intro */
-.intro{display:flex;align-items:center;gap:2rem;padding:3rem 10%;}
-.intro img{width:150px;}
-.intro h2{color:#eb8136;margin-bottom:1rem;}
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 10%;
+}
+.intro img {
+  width: 150px;
+}
+.intro h2 {
+  color: #eb8136;
+  margin-bottom: 1rem;
+}
 
 /* Beneficios */
-.beneficios{padding:3rem 10%;text-align:center;background:linear-gradient(to bottom,#fff,#eafaf1);}
-.card-container{display:flex;gap:2rem;flex-wrap:wrap;justify-content:center;}
-.card{background:white;padding:2rem;border-radius:15px;width:250px;box-shadow:0 4px 15px rgba(0,0,0,0.1);transition:.3s;}
-.card:hover{transform:translateY(-10px);}
-.card h3{color:#eb8136;margin-bottom:.5rem;}
+.beneficios {
+  padding: 3rem 10%;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #eafaf1);
+}
+.card-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card h3 {
+  color: #eb8136;
+  margin-bottom: 0.5rem;
+}
 
 /* CTA */
-.cta{text-align:center;padding:2rem;color:black;}
-.btn{padding:1rem 2rem;background:#27ae60;color:white;text-decoration:none;border-radius:8px;font-weight:bold;}
-.btn:hover{background:#219150;}
+.cta {
+  text-align: center;
+  padding: 2rem;
+  color: black;
+}
+.btn {
+  padding: 1rem 2rem;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #219150;
+}
 
 /* Footer */
-footer{background:#222;color:#aaa;text-align:center;padding:1rem;}
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+}
 
 .card img {
   width: 60px;
@@ -34,21 +121,21 @@ footer{background:#222;color:#aaa;text-align:center;padding:1rem;}
 }
 
 .btn-contactar {
-    display: inline-block;
-    background: #eb8136;
-    color: #fff;
-    padding: 12px 32px;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-    transition: background 0.3s, transform 0.3s;
-    margin-top: 5px;
-    border: none;
-    cursor: pointer;
+  display: inline-block;
+  background: #eb8136;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.3s;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
 }
 .btn-contactar:hover {
-    background: #d46f1f;
-    transform: translateY(-2px) scale(1.05);
+  background: #d46f1f;
+  transform: translateY(-2px) scale(1.05);
 }
