@@ -317,6 +317,15 @@ footer {
     width: 100%;
     box-sizing: border-box;
   }
+
+  .nav-links li a,
+  .dropdown-menu li a {
+  display: block;          /* asegura que se comporte como bloque */
+  width: 100%;             /* ocupa todo el ancho del contenedor */
+  box-sizing: border-box;  /* incluye padding dentro del ancho */
+  overflow: hidden;        /* evita desbordes visuales raros */
+}
+
   .dropdown-menu li a:hover {
     background: #eb8136;
     color: #fff;
